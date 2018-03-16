@@ -148,8 +148,4 @@ set.seed(1)
 X = matrix(runif(1000, min=-1, max=1), ncol=1)
 y = X * X + rnorm(1000, sd=0.1)
 weights = nn_sgd(X, y, sizes=c(1, 25, 1), epochs=25, rho=0.01)
-y_pred = nn_predict(weights, X)
 
-plot(X, y)
-i = order(X)
-lines(X[i], y_pred[i], col=4, lwd=3)
