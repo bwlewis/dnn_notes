@@ -2,6 +2,12 @@
 
 Slides for a talk at Kent State in March, 2018 (see slides.rmd)...
 
+You can view the slides at:
+
+https://bwlewis.github.io/dnn_notes/slides.html
+
+
+
 I am certainly *not* an expert in deep learning, but I am enthusiastic about
 it. The slides are intended to encourage numerical analysts to investigate
 and contribute to this field.
