@@ -43,7 +43,7 @@ DNNs have spawned ingenious computing advances...
 
 <br/>
 
-- Portable, parallelized matrix algebra libraries and systems (Tensorflow, Torch, Chainer, NVIDIA cuDNN, etc.)
+- Portable, parallelized matrix algebra libraries and systems (TensorFlow, Torch, Chainer, NVIDIA cuDNN, etc.)
 - Serious use of modern computing architectures (GPU, TPU)
 - Wide use of mixed-precision arithmetic
 - Elegant, declarative, dataflow-based model specification (Keras)
@@ -288,7 +288,7 @@ But,
 
 
 
-## Simple, key 'big data' insights
+## Trivial but important 'big data' insights
 
 <br/><br/>
 <table><tr>
