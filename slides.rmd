@@ -1,4 +1,7 @@
 ---
+title: A (very) basic introduction to deep neural networks<br/><br/>
+author: Bryan W. Lewis
+date: March 16, 2018
 output:
   revealjs::revealjs_presentation:
     transition: fade
@@ -7,23 +10,15 @@ output:
     css: style.css
 ---
 
-<!-- You can generate an HTML document from this markdown document with:
-R --slave -e "rmarkdown::render('slides.rmd')"
--->
-
 ##
 
 <br/><br/><br/>
+These slides, code and all materials can be found here:
+https://github.com/bwlewis/dnn_notes
 
-<font style="font-size: 96px; font-weight: 800; color: black;">A (very) basic introduction to deep neural networks</font>
 
-##
 
-<br/><br/><br/>
-
-<font style="font-size: 96px; font-weight: 800; color: black;">
-Why is this interesting?
-</font>
+## Why is this interesting?
 
 ##
 
