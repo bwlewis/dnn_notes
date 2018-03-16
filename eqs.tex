@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\begin{eqnarray*}
+n\,\,\, \mbox{p-dimensional data observations } &X& \in \mathcal{R}^{n \times p} \\
+n\,\,\,\mbox{measured output values } &y& \in \mathcal{R}^{n} \\
+e\,\,\, \mbox{a vector or matrix of all ones}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+\qquad h(W,b; X):\mathcal{R}^{k \gg p}\rightarrow\mathcal{R}^n\qquad\mbox{(non-linear)}\\
+\\
+\mbox{goal: }  \min_{W, b}\|h(W, b) - y\|_2^2\qquad\mbox{ }
+\end{eqnarray*}
+
+\noindent
+Data  $X\in\mathcal{R}^{n\times p}$,\\
+weight \emph{shapes} $W_1 \in \mathcal{R}^{p \times p_1}$, $\ldots$
+$W_2\in\mathcal{R}^{p_1 \times p_2}$, $\ldots$,
+$W_{k-1}\in\mathcal{R}^{p_{k-2} \times p_{k-1}}$,\\
+$b_1\in\mathcal{R}^{k_1}$, $b_2\in\mathcal{R}^{k_2}$,
+$\ldots$, $b_{k-1}\in\mathcal{R}^{p_{k-1}}$,\\
+scalar functions $\sigma_1, \sigma_2$, $\ldots$, $\sigma_{k-1}$ (applied entry-wise),\\
+and write   $W=\{W_1, W_2, \ldots,W_{k-1}\}, \,\,\, b=\{b_1, b_2, \ldots, b_{k-1}\}$.\\
+
+\noindent
+Let $h(W,b) := \sigma_{k-1}(\cdots(\sigma_2( \sigma_1(X W_1 + eb_1^T)W_2 + eb_2^T)\cdots)$.\\
+
+\noindent
+Define a functional $J(h; y)$ to minimize.
+\\
+\\
+\\
+
+$\min_{W,b}\|h(W,b)-y\|_2^2$
+\\
+\\
+\\
+
+\begin{eqnarray*}
+\mbox{Data } X \qquad\rightarrow\\
+Z_1 &=& XW_1 + b_1\\
+A_1 &=& \sigma_1(Z_1) \\
+Z_2 &=& A_1 W_2 + b_2\\
+A_2 &=& \sigma_2(Z_2) \qquad \rightarrow h(W, b; X)
+\end{eqnarray*}
+
+
+
+
+\end{document}

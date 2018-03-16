@@ -1,1 +1,3 @@
 # dnn_notes
+
+Slides for a talk at Kent State in March, 2018 (see slides.rmd)...
