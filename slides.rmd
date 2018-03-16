@@ -57,7 +57,7 @@ And yet they are not without problems...
 
 - Sensitive to perturbation
 - Despite simplicity of building blocks, often end up complicated and very heuristic
-- Almost unbelievably compute intensive
+- Almost comically compute-intensive
 - Probably being over-used for problems they are not good at (over-hyped)
 
 <br/>
