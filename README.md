@@ -7,6 +7,9 @@ You can view the slides at:
 https://bwlewis.github.io/dnn_notes/slides.html
 
 
+See the `deep_nnet_example.r` file above.  for a simple, working, easy to
+experiment with example (in R) from Taylor Arnold.
+
 
 I am certainly *not* an expert in deep learning, but I am enthusiastic about
 it. The slides are intended to encourage numerical analysts to investigate
