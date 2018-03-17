@@ -129,6 +129,7 @@ Reinforcement
 
 "A *new* programming paradigm?"
 <br/>
+<br/>
 <img src="ml.png"/>
 
 
@@ -141,13 +142,17 @@ from Francois Chollet and J.J. Allaire, "Deep Learning with R"
 ##
 
 <br/>
+<br/>
 <img src="ml1.png"/>
 
 
-Now this doesn't look that new to me!
+<br/><br/>
+Now *this* doesn't look that new to me!
 
-Consider, for instance, good old ordinary least squares...
-
+<br/>
+<div style="font-size: small;">
+"It's called statistics" -- Omar De La Cruz Cabrera
+</div>
 
 ## Model Data
 
@@ -165,7 +170,7 @@ Rows of **X** are p-dimensional observations of variables along the columns (aka
 </div>
 
 
-## OLS
+## Ordinary least squares 
 
 <br/>
 For coefficients *W* ('weights') in **R**<sup><font style="font: italic 28px Georgia, serif;
@@ -226,7 +231,8 @@ gradient descent).
 
 <br/>
 
-See the (ultra basic) example R code at http://illposed.net/deep_nnet_example.r 
+See the (ultra basic) example R code at 
+https://github.com/bwlewis/dnn_notes/blob/master/deep_nnet_example.r
 
 ##
 
@@ -250,7 +256,7 @@ model %>% compile(
 ```
 
 This model can be trained on any architecture (CPU, GPU, TPU, cloud, laptop...).
-And, once trained, exported to any platform (server, desktop, phone, ...).
+And, once trained, deployed on any platform (server, desktop, phone, embedded system...).
 
 
 ## Why coordinate-wise gradient descent?
@@ -277,6 +283,11 @@ But,
 - L-BFGS
 - Conjugate gradient
 - ...
+
+<br/><br/>
+<div style="font-size: small;">
+See Le, Ngiam, Coates, Lahiri, Prochnow, Ng (https://ai.stanford.edu/~quocle/LeNgiCoaLahProNg11.pdf)
+</div>
 
 ## Typical regularization in use
 
