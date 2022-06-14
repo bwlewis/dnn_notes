@@ -32,7 +32,7 @@ DNNs have been amazingly successful in some applications...
 - Highly accurate transaction fraud detection
 - Improved machine translation
 - Improved text-to-speech conversion
-- Near-human-level autonomous driving
+- <span style='text-decoration: line-through'>Near-human-level autonomous driving</span>
 - Ability to answer natural language questions
 
 See also Elad, "Deep, deep trouble" in SIAM News (https://sinews.siam.org/Details-Page/deep-deep-trouble-4)
